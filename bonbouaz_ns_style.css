@@ -1,0 +1,149 @@
+
+
+
+
+
+
+    .bonbouaz_ns_numerosurtaxe{
+        display: inline-block;
+        border:0;
+        padding:0;
+        margin:0;
+        line-height: 1.2em; /* hauteur de ligne (identique) */
+        white-space: nowrap; /* interdiction de passer à la ligne */
+        height: 1.2em; /* hauteur du parent */
+        vertical-align: middle;
+        font-family: Arial, sans-serif;
+        font-weight: bold;
+        box-shadow: inset 1px 1px 10px 0px #ABABAB;
+        -webkit-box-shadow: inset 1px 1px 10px 0px #ABABAB;
+        -moz-box-shadow: inset 1px 1px 10px 0px #ABABAB;
+        -o-box-shadow: inset 1px 1px 10px 0px #ABABAB; 
+        background-color: white;
+        text-align: left !important;
+    }
+    .bonbouaz_ns_numerosurtaxe .bonbouaz_ns_numero {
+        color:#a50f78 !important; 
+        margin-left:0.3em;
+
+    }
+    .bonbouaz_ns_numerosurtaxe .bonbouaz_ns_detail { 
+       height:100%;
+        border:0;
+        vertical-align: bottom;
+        padding:0;
+        margin:0;
+        mamrgin-top:-2px;
+        -webkit-clip-path: polygon(0 0, 100% 0, 100% 100%, 0 100%, 0 62%, 6% 50%, 0 38%);
+        clip-path: polygon(0 0, 100% 0, 100% 100%, 0 100%, 0 62%, 6% 50%, 0 38%);
+
+        box-shadow: inset 0 -2px 2px rgba(0,0,0,0.3),  
+            inset 0 2px 2px rgba(255,255,255,0.3),
+            1px 1px 10px 0px rgba(0,0,0,0.8);  
+        -webkit-box-shadow: inset 0 -2px 2px rgba(0,0,0,0.3),  
+            inset 0 2px 2px rgba(255,255,255,0.3),
+            1px 1px 10px 0px rgba(0,0,0,0.8); 
+        -moz-box-shadow:   inset 0 -2px 2px rgba(0,0,0,0.3),  
+            inset 0 2px 2px rgba(255,255,255,0.3),
+            1px 1px 10px 0px rgba(0,0,0,0.8); 
+        -o-box-shadow:  inset 0 -2px 2px rgba(0,0,0,0.3),  
+            inset 0 2px 2px rgba(255,255,255,0.3),
+            1px 1px 10px 0px rgba(0,0,0,0.8); 
+       
+        font-weight: normal; 
+        padding-left:0.7em;
+        padding-right: 0.3em;
+        margin-right:0.3em;
+        font-size:0.5em;
+        display: inline-block;
+
+        background-color:#a50f78;
+        color:white;
+        line-height: 1.2em; 
+    }
+    .bonbouaz_ns_numerosurtaxe.bonbouaz_ns_small .bonbouaz_ns_detail { 
+        
+        
+        vertical-align: bottom;
+        line-height: 1.5em; 
+        -webkit-clip-path: polygon(0 0, 100% 0, 100% 100%, 0 100%, 0 62%, 3% 50%, 0 38%);
+        clip-path: polygon(0 0, 100% 0, 100% 100%, 0 100%, 0 62%, 3% 50%, 0 38%);
+        font-size:0.6em !important; 
+    }
+    .bonbouaz_ns_numerosurtaxe .bonbouaz_ns_service,  .bonbouaz_ns_numerosurtaxe  ns_prixappel {
+        display: block;
+    }
+    .bonbouaz_ns_numerosurtaxe.bonbouaz_ns_small .bonbouaz_ns_service,  .bonbouaz_ns_numerosurtaxe.bonbouaz_ns_small  ns_prixappel {
+        display: inline-block !important;
+    }
+    .bonbouaz_ns_numerosurtaxe .bonbouaz_ns_personalise {
+
+        font-weight: bold;
+    } 
+
+    .bonbouaz_ns_numerosurtaxe.bonbouaz_ns_dessous   { 
+        height:1.799em !important;
+    } 
+    .bonbouaz_ns_numerosurtaxe.bonbouaz_ns_dessous .bonbouaz_ns_numero { 
+         padding-right:0.3em;
+    } 
+    .bonbouaz_ns_numerosurtaxe.bonbouaz_ns_dessous .bonbouaz_ns_detail { 
+        
+        display:block;
+        vertical-align: bottom;
+        text-align: center;
+        line-height: 1.7em; 
+         height: 1.7em; 
+        -webkit-clip-path: polygon(0 0,11% 0, 13% 15%, 15% 0 ,100% 0, 100% 100%, 0 100%);
+        clip-path:  polygon(0 0,11% 0, 13% 15%, 15% 0 ,100% 0, 100% 100%, 0 100%);
+        font-size:0.47em !important; 
+        padding-left:0.3em;
+        padding-right:0.3em;
+        margin-right:0;
+    } 
+    .bonbouaz_ns_numerosurtaxe.bonbouaz_ns_dessous .bonbouaz_ns_service,  .bonbouaz_ns_numerosurtaxe.bonbouaz_ns_dessous  ns_prixappel {
+        display: inline-block !important;
+    } 
+    
+    
+
+    .bonbouaz_ns_numerosurtaxe.bonbouaz_ns_gratuit .bonbouaz_ns_numero { 
+        color:#78b41e !important; ;  
+    }
+     
+    .bonbouaz_ns_numerosurtaxe.bonbouaz_ns_gratuit .bonbouaz_ns_detail { 
+        background-color:#78b41e ;   
+
+    } 
+
+    .bonbouaz_ns_numerosurtaxe.bonbouaz_ns_normal .bonbouaz_ns_numero { 
+        color:#91919b !important; ;   
+    }
+    .bonbouaz_ns_numerosurtaxe.bonbouaz_ns_normal .bonbouaz_ns_detail { 
+        background-color:#91919b ;   
+
+    } 
+
+    .bonbouaz_ns_numerosurtaxe.bonbouaz_ns_defonce .bonbouaz_ns_numero { 
+        color:white !important; 
+    } 
+	
+    .bonbouaz_ns_numerosurtaxe.bonbouaz_ns_defonce{ 
+        box-shadow: none !important;
+        -webkit-box-shadow: none !important;
+        -moz-box-shadow: none !important;
+        -o-box-shadow: none !important;
+        background-color: transparent !important;  
+        border: 1px solid white;
+    }
+
+    .bonbouaz_ns_numerosurtaxe.bonbouaz_ns_defonce .bonbouaz_ns_detail { 
+
+        box-shadow: none !important;
+        -webkit-box-shadow: none !important;
+        -moz-box-shadow: none !important;
+        -o-box-shadow: none !important; 
+        background-color:white ;  
+        color:#333 !important;
+
+    } 
